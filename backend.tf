@@ -1,7 +1,7 @@
  terraform {
   backend "s3" {
-    bucket = "awsaurora"
-    key    = "kobble-terraform-state"
+    bucket = "kobble-terraform-state"
+    key    = "terraform.tfstate"
     region = "ap-southeast-2"
   }
 }
