@@ -17,5 +17,5 @@ rds_subnet_group_name = "dev_db"
 rds_instance_class      = "db.serverless"
 rds_engine_version          = "15.4"
 db_instance_name      = "dev-aurora"
-aws_secret_name       = "dev_db1"
+aws_secret_name       = "dev_db1"   #Secret name
 qldb_name             = "dev-qldb"
